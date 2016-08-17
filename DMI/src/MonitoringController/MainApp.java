@@ -52,6 +52,7 @@ public class MainApp extends Application {
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(MainApp.class.getResource("/MonitoringView/HomeView.fxml"));
             AnchorPane homeView = (AnchorPane) loader.load();
+            
 
             // Set home view into the center of root layout.
             rootLayout.setCenter(homeView);
